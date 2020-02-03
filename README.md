@@ -1,4 +1,8 @@
-![Nuxt CoreUI Project](nuxtcoreui.jpg)
+This is based on [muhibbudins/nuxt-coreui](https://github.com/muhibbudins/nuxt-coreui), and fixed some points.
+
+- header,sidebar,aside-menu fixed
+- hidden sidebarMinimizer
+
 
 # NuxtJS + CoreUI
 
@@ -34,16 +38,3 @@ Go to [http://localhost:3000](http://localhost:3000)
 $ npm run build
 $ npm start
 ```
-
-## Todo
-
-- [x] Fix link and views
-- [x] Updgrade to latest NuxtJS boilerplate
-- [x] Using Express as server
-- [x] Move installation to Vue CLI
-- [x] Extend SCSS to Style Resources
-- [x] Improve performance and code style
-
-## License
-
-This project under [NuxtJS License](https://github.com/nuxt/nuxt.js/blob/dev/LICENSE) and [CoreUI License](https://github.com/coreui/coreui-free-vue-admin-template/blob/master/LICENSE)
