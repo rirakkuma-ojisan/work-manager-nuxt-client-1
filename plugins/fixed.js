@@ -1,0 +1,1 @@
+document.body.classList.add('header-fixed', 'sidebar-fixed', 'aside-menu-fixed')
