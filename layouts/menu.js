@@ -1,6 +1,11 @@
 export default {
   items: [
     {
+      name: '勤怠',
+      url: '/attendance',
+      icon: 'fa fa-calendar-check-o',
+    },
+    {
       name: 'Dashboard',
       url: '/',
       icon: 'icon-speedometer',

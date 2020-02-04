@@ -69,13 +69,19 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc: https://github.com/bootstrap-vue/bootstrap-vue
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    // https://ja.nuxtjs.org/faq/http-proxy/
+    '@nuxtjs/proxy',
   ],
   /*
   ** Axios module configuration
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+
+  proxy: {
+    '/api': 'http://localhost:3001',
   },
 
   /*
